@@ -1,0 +1,253 @@
+@media only screen and (max-width: 968px) {
+	/*none*/
+	.main-navigation:before,.main-navigation:after,.menu-footer,#sidebar,.woocommerce-breadcrumb {
+		display: none;
+	}
+	/*100%*/
+	.Lock,.W340,.main-navigation ul.nav-menu.toggled-on,.banner-simulador .Left,.info-footer,.W500,.W490,.W670,.W460,.W520,.grid-produtos,.images {
+		width: 100%;
+	}
+	/*padding left rigt 20*/
+	body.home .categorias-em-detaque,body.page-template-page-quem-somos .categorias-em-detaque,body.home .produtos-em-detaque,.blog.home,.W500,.W490 {
+		padding-left: 20px;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+	/*imagem 100%*/
+	.blog ul li figure img {
+		width: 100%;
+		height: auto;
+	}
+	body.home header, header {
+		width: 100%;
+		position: relative;
+		left: auto;
+		margin: 0;
+	}
+	header .W340 {
+		padding: 0;
+	}
+	.fone-social-header ul {
+		text-align: center;
+		margin: 10px 0;
+	}
+	.fone-social-header ul li {
+		margin: 0 10px 0;
+	}
+	.main-navigation {
+		width: 100%;
+		display: inline-block;
+	}
+	.menu-institucional ul {
+		float: none;
+		text-align: center;
+	}
+	.menu-institucional ul li {
+		margin: 0 5px 20px 5px;
+	}
+	.logo {
+		margin: 20px 0;
+	}
+	.menu-toggle {
+		width: 100%;
+		background: no-repeat;
+		font-family: 'Humanst531B';
+    	font-size: 15px;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: left;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+	.main-navigation li {
+		margin: 0;
+		border-top: 1px solid #fff;
+	}
+	.main-navigation a {
+		color: #fff;
+		display: block;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+	.banner {
+		height: auto;
+		background: url(../images/bg-banner.jpg) no-repeat bottom center;
+	}
+	.categorias-em-detaque ul li {
+		width: 100%;
+		text-align: center;
+	}
+	.categorias-em-detaque .hover {
+		opacity: 1;
+		margin: -40px 0 0 -140px;
+	}
+	.produtos-em-detaque ul li {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.produtos-em-detaque ul li figure img {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	.blog ul li,body.home .blog ul li {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	footer {
+		padding: 50px 20px 0 20px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	body.home #main, body.page-template-page-quem-somos #main {
+		padding: 0;
+	}
+	#main {
+		width: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.sidebar-ultimos-posts {
+		width: 100%;
+		margin: 30px 0 0;
+	}
+	.sidebar-ultimos-posts ul li figure {
+		width: 25%;
+		height: auto;
+	}
+	.sidebar-ultimos-posts ul li .date-title {
+		width: 70%;
+	}
+	.clientes ul li {
+		width: 100%;
+	}
+	.grid-produtos ul li:nth-child(3n) {
+		margin: 0 20px 30px 0;
+	}
+	.grid-produtos ul li {
+		width: 100%;
+	}
+	.grid-produtos ul li img {
+		width: auto;
+		margin: 0 auto;
+	}
+	.summary {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+}
+
+/*  #Mobile (Portrait (paisagem)) */
+/* Note: Design for a width of 600px */
+@media only screen and (max-width: 710px){
+
+}
+
+/*  #Mobile (Portrait (paisagem)) */
+/* Note: Design for a width of 480px */
+@media only screen and (max-width: 550px){
+	/*none*/
+	td.product-thumbnail,th.product-thumbnail {display:none}
+	.col2 {
+		width: 100%;
+	}
+	.TxtRight {
+		text-align: center;
+	}
+	.fone-social-header ul li {
+		font-size: 11px;
+	}
+	.categorias-em-detaque ul li img {
+		width: 100%;
+		height: auto;
+	}
+	.categorias-em-detaque .hover {
+		width: 200px;
+		height: 200px;
+		background-image: url(../images/hover-categorias-em-detaque.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: -20px 0 0 -100px;
+	}
+	.categorias-em-detaque ul li .hover h2 strong, .categorias-em-detaque.sidebar ul li .hover h4 strong {
+		font-size: 13px;
+	}
+	.categorias-em-detaque ul li .hover h2, .categorias-em-detaque.sidebar ul li .hover h4 {
+		margin: 65px 0 10px 0;
+		font-size: 20px;
+	}
+	.categorias-em-detaque .hover .botao-veja-mais {
+		padding: 10px;
+	}
+	.categorias-em-detaque ul li:last-child .hover h2, .categorias-em-detaque.sidebar ul li:last-child .hover h4 {
+		margin: 60px 0 10px 0;
+	}
+	.menu-institucional ul li {
+		margin: 0 4px 20px;
+	}
+	.menu-institucional ul li a {
+		font-size: 10px;
+	}
+	.banner-simulador h2 {
+		font-size: 100px;
+	}
+	.banner-simulador h2 span {
+		font-size: 80px;
+	}
+	.blog ul li figure {
+		height: 150px;
+	}
+	.blog-interna figure {
+		height: 150px;
+	}
+	.blog-interna figure img {
+		width: 100%;
+		height: auto;
+	}
+	.grid-produtos .title h1 strong, .sidebar-ultimos-posts h2 strong {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.grid-produtos .title h1, .sidebar-ultimos-posts h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.grid-produtos .title h2 {
+		font-size: 20px;
+	}
+	.slick-slide img {
+		width: 100%;
+		height: auto;
+	}
+	.info-footer img {
+		width: 100%;
+	}
+	.nbdesign-button {
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.summary .cart button {
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	.quem-somos .W490 ul li {
+		width: 100%;
+		height: auto;
+	}
+	.quem-somos .W490 ul li img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*  #Mobile (Portrait (retrato)) */
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 450px) {
+
+}
+
+/*VOLTA MENU*/
+@media all and (min-width: 850px){
+
+}

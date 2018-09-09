@@ -1,0 +1,23 @@
+@media print {
+	header,
+	.categorias-em-detaque.sidebar .DIB,
+	footer,
+	.woocommerce-breadcrumb,
+	.nbdesigner_pp_close,
+	.images,
+	.summary .cart .quantity input,
+	.summary .cart button,
+	.nbdesign-button,
+	.summary p {
+		display: none !important;
+	}
+	.summary {
+		width: 100% !important;
+	}
+	.nbdesigner_frontend_container {
+		border-bottom: none !important;
+	}
+	.summary .cart {
+		border-top: none !important;
+	}
+}
